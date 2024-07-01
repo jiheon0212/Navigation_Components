@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Two"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/delete_24px"
+        android:id="@+id/twoFragment"/>
+    <item
+        android:title="Three"
+        app:showAsAction="always"
+        android:icon="@drawable/add_24px"
+        android:id="@+id/threeFragment"/>
+    <item
+        android:title="Four"
+        app:showAsAction="always"
+        android:icon="@drawable/download_24px"
+        android:id="@+id/fourFragment"/>
+
+</menu>
